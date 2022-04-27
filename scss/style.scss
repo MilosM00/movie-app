@@ -1,0 +1,53 @@
+@import "_movie";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #0E3386,#00BFFF, #7CB9E8);
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+    .inline{
+        display: inline-flex;
+
+        .search{
+            padding: 10px;
+            font-size: 18px;
+            width: 400px;
+            background-color: transparent;
+            border: 1px solid rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+        }
+
+        .search:focus{
+            outline: none;
+            background-color: transparent;
+        }
+
+        .search::placeholder{
+            color: rgb(255, 255, 255);
+        }
+
+        .first-space{
+            padding: 10px;
+        }
+
+        .button-search{
+            padding: 10px;
+            font-size: 18px;
+            border: none;
+            font-weight: 800;
+            background-color: transparent;
+            border: 1px solid rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+        }
+    }
+}

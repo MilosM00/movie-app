@@ -1,0 +1,18 @@
+.movies-page1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .icon{
+        display: grid;
+        place-items: center;
+        
+        img{
+            border: 2px solid rgb(255, 255, 255);
+            cursor: pointer;
+        }
+    }
+}
+
+// .hidden-page1{
+//     display: none;
+// }
