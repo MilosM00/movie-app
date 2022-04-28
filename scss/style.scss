@@ -1,4 +1,5 @@
 @import "_movie";
+@import "_modal";
 
 *{
     padding: 0;
@@ -8,6 +9,7 @@
 
 body{
     background: linear-gradient(to right, #0E3386,#00BFFF, #7CB9E8);
+    position: relative;
 }
 
 header{
@@ -19,6 +21,7 @@ header{
         display: inline-flex;
 
         .search{
+            font-family: sans-serif;
             padding: 10px;
             font-size: 18px;
             width: 400px;
@@ -41,6 +44,7 @@ header{
         }
 
         .button-search{
+            font-family: sans-serif;
             padding: 10px;
             font-size: 18px;
             border: none;
@@ -48,6 +52,33 @@ header{
             background-color: transparent;
             border: 1px solid rgb(255, 255, 255);
             color: rgb(255, 255, 255);
+        }
+    }
+}
+
+.page-number{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+    .inline-page-number{
+        display: inline-flex;
+
+        span{
+            padding: 10px;
+        }
+
+        .button-page-one,
+        .button-page-two,
+        .button-page-three{
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            border: none;
+            border: 1px solid rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight: bold;
         }
     }
 }
