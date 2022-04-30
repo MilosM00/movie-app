@@ -8,6 +8,13 @@ const modal = document.querySelector(`.modal-display`);
 const overlay = document.querySelector(`.overlay`);
 const buttonCloseModal = document.querySelector(`.close-modal`);
 
+const moviesPageOne = document.querySelector(`.movies-page1`);
+const moviesPageTwo = document.querySelector(`.movies-page2`);
+const moviesPageThree = document.querySelector(`.movies-page3`);
+const buttonPage1 = document.querySelector(`.button-page-one`);
+const buttonPage2 = document.querySelector(`.button-page-two`);
+const buttonPage3 = document.querySelector(`.button-page-three`);
+
 const movie1 = document.querySelector(`.movie-1`);
 const movie2 = document.querySelector(`.movie-2`);
 const movie3 = document.querySelector(`.movie-3`);
@@ -34,7 +41,55 @@ const movie23 = document.querySelector(`.movie-23`);
 const movie24 = document.querySelector(`.movie-24`);
 
 
+moviesPageOne.classList.remove(`hidden-page1`);
+buttonPage1.style.backgroundColor = `rgb(255, 255, 255)`;
+buttonPage1.style.color = `rgb(0, 0, 0)`;
 movieInfo.setAttribute('style', 'white-space: pre;');
+
+buttonPage1.addEventListener(`click`, () =>{
+    buttonPage1.style.backgroundColor = `rgb(255, 255, 255)`;
+    buttonPage1.style.color = `rgb(0, 0, 0)`;
+    buttonPage2.style.backgroundColor = `transparent`;
+    buttonPage2.style.color = `rgb(255, 255, 255)`;
+    buttonPage3.style.backgroundColor = `transparent`;
+    buttonPage3.style.color = `rgb(255, 255, 255)`;
+
+    moviesPageOne.classList.remove(`hidden-page1`);
+    moviesPageTwo.classList.add(`hidden-page2`);
+    moviesPageThree.classList.add(`hidden-page3`);
+
+    document.body.scrollIntoView();
+});
+
+buttonPage2.addEventListener(`click`, () =>{
+    buttonPage2.style.backgroundColor = `rgb(255, 255, 255)`;
+    buttonPage2.style.color = `rgb(0, 0, 0)`;
+    buttonPage1.style.backgroundColor = `transparent`;
+    buttonPage1.style.color = `rgb(255, 255, 255)`;
+    buttonPage3.style.backgroundColor = `transparent`;
+    buttonPage3.style.color = `rgb(255, 255, 255)`;
+
+    moviesPageOne.classList.add(`hidden-page1`);
+    moviesPageTwo.classList.remove(`hidden-page2`);
+    moviesPageThree.classList.add(`hidden-page3`);
+
+    document.body.scrollIntoView();
+});
+
+buttonPage3.addEventListener(`click`, () =>{
+    buttonPage3.style.backgroundColor = `rgb(255, 255, 255)`;
+    buttonPage3.style.color = `rgb(0, 0, 0)`;
+    buttonPage2.style.backgroundColor = `transparent`;
+    buttonPage2.style.color = `rgb(255, 255, 255)`;
+    buttonPage1.style.backgroundColor = `transparent`;
+    buttonPage1.style.color = `rgb(255, 255, 255)`;
+
+    moviesPageOne.classList.add(`hidden-page1`);
+    moviesPageTwo.classList.add(`hidden-page2`);
+    moviesPageThree.classList.remove(`hidden-page3`);
+
+    document.body.scrollIntoView();
+});
 
 buttonCloseModal.addEventListener(`click`, () =>{
     modal.classList.add(`hidden-modal`);
