@@ -40,6 +40,31 @@ const movie22 = document.querySelector(`.movie-22`);
 const movie23 = document.querySelector(`.movie-23`);
 const movie24 = document.querySelector(`.movie-24`);
 
+const movie25 = document.querySelector(`.movie-25`);
+const movie26 = document.querySelector(`.movie-26`);
+const movie27 = document.querySelector(`.movie-27`);
+const movie28 = document.querySelector(`.movie-28`);
+const movie29 = document.querySelector(`.movie-29`);
+const movie30 = document.querySelector(`.movie-30`);
+const movie31 = document.querySelector(`.movie-31`);
+const movie32 = document.querySelector(`.movie-32`);
+const movie33 = document.querySelector(`.movie-33`);
+const movie34 = document.querySelector(`.movie-34`);
+const movie35 = document.querySelector(`.movie-35`);
+const movie36 = document.querySelector(`.movie-36`);
+const movie37 = document.querySelector(`.movie-37`);
+const movie38 = document.querySelector(`.movie-38`);
+const movie39 = document.querySelector(`.movie-39`);
+const movie40 = document.querySelector(`.movie-40`);
+const movie41 = document.querySelector(`.movie-41`);
+const movie42 = document.querySelector(`.movie-42`);
+const movie43 = document.querySelector(`.movie-43`);
+const movie44 = document.querySelector(`.movie-44`);
+const movie45 = document.querySelector(`.movie-45`);
+const movie46 = document.querySelector(`.movie-46`);
+const movie47 = document.querySelector(`.movie-47`);
+const movie48 = document.querySelector(`.movie-48`);
+
 
 moviesPageOne.classList.remove(`hidden-page1`);
 buttonPage1.style.backgroundColor = `rgb(255, 255, 255)`;
@@ -531,4 +556,436 @@ movie24.addEventListener(`click`, () =>{
     movieStory.textContent = `As a child, Evan Treborn was afflicted with blackouts where he would be in one place one minute and then another the next, remembering absolutely nothing in-between. Now all grown up and in college, he decides to read from an old journal he wrote to remember stuff that might have happened in the in-between, and suddenly finds himself back at a certain point in his life. He realizes that those blackouts he had were actually empty spaces of time he had to fill up later in life. Attempting to use this ability to undo unpleasant past events, Evan starts to find that every time he goes back and tries to fix things, he ends up making everything worse. How can he prevent more tragedies from happening and save the one girl he ever loved, Kayleigh (Amy Smart)?`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=B8_dgqfPXFg`;
+});
+
+movie25.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Dictator`;
+
+    movieInfo.textContent = `
+    Director: Larry Charles
+    Actors: Sacha Baron Cohen, Anna Faris, John C. Reilly
+    Relese Date: 16 May 2012
+    IMDb Rate: 6.4/10 
+    `;
+
+    movieStory.textContent = `The Republic of Wadiya is ruled by an eccentric and oppressive leader named Hafez Aladeen. Aladeen is summoned to New York to a UN assembly to address concerns about his country's nuclear weapons program, but the trip goes awry?`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=cYplvwBvGA4`;
+});
+
+movie26.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Mechanic`;
+
+    movieInfo.textContent = `
+    Director: Simon West
+    Actors: Jason Statham, Ben Foster, Donald Sutherland
+    Relese Date: 28 January 2011
+    IMDb Rate: 6.5/10 
+    `;
+
+    movieStory.textContent = `Arthur Bishop (Jason Statham) is a 'mechanic' - an elite assassin with a strict code and unique talent for cleanly eliminating targets. It's a job that requires professional perfection and total detachment, and Bishop is the best in the business. But when his mentor and close friend Harry (Donald Sutherland) is murdered, Bishop is anything but detached. His next assignment is self-imposed - he wants those responsible dead. His mission grows complicated when Harry's son Steve (Ben Foster) approaches him with the same vengeful goal and a determination to learn Bishop's trade. Bishop has always acted alone but he can't turn his back on Harry's son. A methodical hit man takes an impulsive student deep into his world and a deadly partnership is born. But while in pursuit of their ultimate mark, deceptions threaten to surface and those hired to fix problems become problems themselves.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=CMklQNn0OH0`;
+});
+
+movie27.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Ramo First Blood`;
+
+    movieInfo.textContent = `
+    Director: Ted Kotcheff
+    Actors: Sylvester Stallone, Brian Dennehy, Richard Crenna
+    Relese Date: 22 October 1982
+    IMDb Rate: 7.7/10 
+    `;
+
+    movieStory.textContent = `John J. Rambo is a former United States Special Forces soldier who fought in Vietnam and won the Congressional Medal of Honor, but his time in Vietnam still haunts him. As he came to Hope, Washington to visit a friend, he was guided out of town by the Sheriff William Teasel who insults Rambo, but what Teasel does not know that his insult angered Rambo to the point where Rambo became violent and was arrested. As he was at the county jail being cleaned, he escapes and goes on a rampage through the forest to try to escape from the sheriffs who want to kill him. Then, as Rambo's commanding officer, Colonel Samuel Trautman tries to save both the Sheriff's department and Rambo before the situation gets out of hand.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=IAqLKlxY3Eo`;
+});
+
+movie28.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `R.I.P.D.`;
+
+    movieInfo.textContent = `
+    Director: Robert Schwentke
+    Actors: Ryan Reynolds, Jeff Bridges, Mary-Louise Parker
+    Relese Date: 19 July 2013
+    IMDb Rate: 5.6/10 
+    `;
+
+    movieStory.textContent = `In Boston, the dirty cop Nick hides gold that he has stolen from drug-dealers with his partner Hayes in the backyard of his house. However, on the next morning, Nick tells Hayes that he will deliver the evidence to the police since he loves his wife Julia and he could not face her acting that way. Nick and Hayes are assigned to a raid against a dangerous gang and unexpectedly Hayes kills Nick. Nick is drawn by a tunnel and based on his previous experience in the police department, he is assigned in the afterlife by the Proctor to join the Rest in Peace Department that protects the living world from the undead and work with the old-fashioned agent Roy. Roy and Nick accidentally find that Hayes in plotting a scheme to revert the sense of the tunnel to the afterlife and bring the Apocalypse to Earth.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=nt59JjtWFSU`;
+});
+
+movie29.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Rampage`;
+
+    movieInfo.textContent = `
+    Director: Brad Peyton
+    Actors: Dwayne Johnson, Naomie Harris, Malin Akerman
+    Relese Date: 13 April 2018
+    IMDb Rate: 6.1/10 
+    `;
+
+    movieStory.textContent = `Athena-1, a space station owned by gene manipulation company Energyne, is destroyed after a laboratory rat mutates and wreaks havoc. Dr. Kerry Atkins, the lone surviving crew member, is ordered by CEO Claire Wyden to retrieve research canisters containing a pathogen. Atkins is able to flee in the escape pod when the station implodes, but due to damage from the rat it disintegrates upon re-entry, killing her. The falling pieces leave a trail of debris across the United States, including the Everglades in Florida, where a canister is consumed by an American crocodile, and a forest in Wyoming, where a gray wolf is exposed to the pathogen. Primatologist Davis Okoye, a former US Army Special Forces soldier and member of an anti-poaching unit, works at the San Diego Wildlife Sanctuary. He has befriended a rare albino western lowland gorilla named George, having saved him from poachers, and communicates with George using sign language and hand gestures. At night, one of the canisters crash-lands in George's habitat, and George is exposed to the pathogen...`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=coOKvrsmQiI`;
+});
+
+movie30.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Wolf Of The Wall Street`;
+
+    movieInfo.textContent = `
+    Director: Martin Scorsese
+    Actors: Leonardo DiCaprio, Jonah Hill, Margot Robbie
+    Relese Date: 25 December 2013
+    IMDb Rate: 8.2/10 
+    `;
+
+    movieStory.textContent = `In the early 1990s, Jordan Belfort teamed with his partner Donny Azoff and started brokerage firm Stratton Oakmont. Their company quickly grows from a staff of 20 to a staff of more than 250 and their status in the trading community and Wall Street grows exponentially. So much that companies file their initial public offerings through them. As their status grows, so do the amount of substances they abuse, and so do their lies. They draw attention like no other, throwing lavish parties for their staff when they hit the jackpot on high trades. That ultimately leads to Belfort featured on the cover of Forbes Magazine, being called "The Wolf Of Wall St.". With the FBI onto Belfort's trading schemes, he devises new ways to cover his tracks and watch his fortune grow. Belfort ultimately comes up with a scheme to stash their cash in a European bank. But with the FBI watching him like a hawk, how long will Belfort and Azoff be able to maintain their elaborate wealth and luxurious lifestyles?`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=iszwuX1AK6A`;
+});
+
+movie31.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `300`;
+
+    movieInfo.textContent = `
+    Director: Zack Snyder
+    Actors: Gerard Butler, Lena Headey, David Wenham
+    Relese Date: 09 March 2007
+    IMDb Rate: 7.6/10 
+    `;
+
+    movieStory.textContent = `In the Battle of Thermopylae of 480 BC an alliance of Greek city-states fought the invading Persian army in the mountain pass of Thermopylae. Vastly outnumbered, the Greeks held back the enemy in one of the most famous last stands of history. Persian King Xerxes led a Army of well over 100,000 (Persian king Xerxes before war has about 170,000 army) men to Greece and was confronted by 300 Spartans, 700 Thespians, and 400 Thebans. Xerxes waited for 10 days for King Leonidas to surrender or withdraw but left with no options he pushed forward. After 3 days of battle all the Greeks were killed. The Spartan defeat was not the one expected, as a local shepherd, named Ephialtes, defected to the Persians and informed Xerxes that the separate path through Thermopylae, which the Persians could use to outflank the Greeks, was not as heavily guarded as they thought.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=UrIbxk7idYA`;
+});
+
+movie32.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Hachi: A Dog's Tale`;
+
+    movieInfo.textContent = `
+    Director: Lasse Hallström
+    Actors: Richard Gere, Joan Allen, Cary-Hiroyuki Tagawa
+    Relese Date: 12 March 2010
+    IMDb Rate: 8.1/10 
+    `;
+
+    movieStory.textContent = `Commuting by train, music professor Parker Wilson finds an Akita puppy, whose cage broke unnoticed during shipping, leaving his destination unknown, and since the station can't care for it and the dog catcher warns even such cute ones may not be adopted in the two weeks allowed, he kindly takes it home. His bossy, jealous wife Cate initially makes Parker swear it won't stay, but by the time its' clear nobody will claim him and an adoption candidate is found, she agrees to keep the dog, who won over their daughter Andy and her fiance Michael at first sight. Parker's Japanese college friend Ken inspires naming the pup Hachi(ko), and is pleasantly surprised when Parker successfully tackles the challenge to get it to fetch, which Akitas don't usually do. Hachi makes a habit of waiting for his equally doting master at the station every evening, but after a cardiac crisis, Parker dies. Hachi refuses to accept this, being moved to Michael's home as Cate moves out, waiting for a master who can never come home again, by now collectively adopted by sympathizing town-folk. The story is told in flashbacks as class assignment 'my hero' by Michael's teen son Robbie, who also gets an Akita puppy.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=TIl2o1hm1F4`;
+});
+
+movie33.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Ip Man`;
+
+    movieInfo.textContent = `
+    Director: Wilson Yip
+    Actors: Donnie Yen, Simon Yam, Siu-Wong Fan
+    Relese Date: 12 December 2008
+    IMDb Rate: 8.0/10 
+    `;
+
+    movieStory.textContent = `In 1935 in Foshan, south China, there are martial arts schools on every street corner. Ip Man is the undisputed martial arts champion, yet he has not devoted himself to teaching. Despite this, it seems that all the kung fu masters of the city are eager to fight him to improve their reputation.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=RBYbqO_FUA4`;
+});
+
+movie34.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Mechanic: Resurrection`;
+
+    movieInfo.textContent = `
+    Director: Dennis Gansel
+    Actors: Jason Statham, Jessica Alba, Tommy Lee Jones
+    Relese Date: 26 August 2016
+    IMDb Rate: 5.7/10 
+    `;
+
+    movieStory.textContent = `Arthur Bishop, the master assassin who faked his death in hopes of putting that part of his ;life behind him, now lives a quiet life in Rio. But someone who knows who he is shows up and tells him, that if he wants to continue living this life, he will do three jobs for someone. Bishop tries to tell them he has the wrong man but they know who he is and if he won't do the job, they will take him but he gets away. He then goes to a resort in Thailand run by a friend, Mae, where he tries to find out who is looking for him. Later a woman named Gina shows up looking for medical assistance and Mae can't help but notice bruises all over her body. Mae deduces she's a battered woman and when Mae hears her being beaten, Mae asks Bishop to help her. He goes and kills the guy she's with. He kills the man and then sets fire to the boat he's on. But he sees that Gina has a photo of him. He deduces that they one who wants him, sent her. He confronts her and she admits that she works at a children's shelter in Cambodia and that someone told her if she didn't do what he said, the children would be endanger. While waiting for the man to come, they get close. And when the man's people comes, they grab them. Bishop is brought to the man who wants him to do the jobs and he tells Bishop that if he doesn't do it, Gina will be killed. So Bishop has no choice but to do it.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=G-P3f_wDXvs`;
+});
+
+movie35.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Rambo Frist Blood Part 2`;
+
+    movieInfo.textContent = `
+    Director: George P. Cosmatos
+    Actors: Sylvester Stallone, Richard Crenna, Charles Napier
+    Relese Date: 22 May 1985
+    IMDb Rate: 6.5/10 
+    `;
+
+    movieStory.textContent = `Only a few years after the all-out guerrilla war in First Blood (1982), John Rambo's former commanding officer, Colonel Sam Trautman, pulls him out of jail, only to send him back to a place he swore never to return: the impenetrable jungles of Vietnam. Entrusted with the dangerous task of collecting evidence that American POWs are still being held captive, Rambo agrees to infiltrate the unknown zone, and before long, he finds himself double-crossed, marooned behind the enemy lines. Once, John fought for his country. Now, the government has left him for dead in a Soviet-infested land. Can Rambo fulfil his suicide mission? Will he deliver his lethal justice?`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=WQGJAIYtWD4`;
+});
+
+movie36.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Shutter Island`;
+
+    movieInfo.textContent = `
+    Director: Martin Scorsese
+    Actors: Leonardo DiCaprio, Emily Mortimer, Mark Ruffalo
+    Relese Date: 19 February 2010
+    IMDb Rate: 8.2/10 
+    `;
+
+    movieStory.textContent = `In 1954, up-and-coming U.S. marshal Teddy Daniels is assigned to investigate the disappearance of a patient from Boston's Shutter Island Ashecliffe Hospital. He's been pushing for an assignment on the island for personal reasons, but before long he thinks he's been brought there as part of a twisted plot by hospital doctors whose radical treatments range from unethical to illegal to downright sinister. Teddy's shrewd investigating skills soon provide a promising lead, but the hospital refuses him access to records he suspects would break the case wide open. As a hurricane cuts off communication with the mainland, more dangerous criminals "escape" in the confusion, and the puzzling, improbable clues multiply, Teddy begins to doubt everything - his memory, his partner, even his own sanity.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=5iaYLCiq5RM`;
+});
+
+movie37.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Homefront`;
+
+    movieInfo.textContent = `
+    Director: Gary Fleder
+    Actors: Jason Statham, James Franco, Winona Ryder
+    Relese Date: 27 November 2013
+    IMDb Rate: 6.5/10 
+    `;
+
+    movieStory.textContent = `Phil Broker is a former DEA agent who has gone through a crisis after his actions against a biker gang went horribly wrong ,and it cost the life of his boss's son. He is recently widowed and is left with a 9 year old daughter, Maddy. He decides to quit the turbulent and demanding life of the DEA for Maddy's sake and retires to a small town. His daughter fights off a boy who is bullying her at school, and this sets in motion a round of events that end in his direct confrontation with the local Meth drug lord. His past with the biker gang also enters the arena, making matters more complex. But he has a mission in his mind to protect his daughter, and he is ready to pay any cost that it demands.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=tjSOj8b804U`;
+});
+
+movie38.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Interstellar`;
+
+    movieInfo.textContent = `
+    Director: Christopher Nolan
+    Actors: Matthew McConaughey, Anne Hathaway, Jessica Chastain
+    Relese Date: 07 November 2014
+    IMDb Rate: 8.6/10 
+    `;
+
+    movieStory.textContent = `Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=zSWdZVtXT7E`;
+});
+
+movie39.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Ip Man 2`;
+
+    movieInfo.textContent = `
+    Director: Wilson Yip
+    Actors: Donnie Yen, Xiaoming Huang, Sammo Kam-Bo Hung
+    Relese Date: 29 April 2010
+    IMDb Rate: 7.5/10 
+    `;
+
+    movieStory.textContent = `Ip Man 2 is a 2010 Hong Kong biographical martial arts film loosely based on the life of Ip Man, a grandmaster of the martial art Wing Chun. A sequel to the 2008 film Ip Man, the film was directed by Wilson Yip, and stars Donnie Yen, who reprises the leading role. Continuing after the events of the earlier film, the sequel centers on Ip's movements in Hong Kong, which is under British colonial rule. He attempts to propagate his discipline of Wing Chun, but faces rivalry from other practitioners, including the local master of Hung Ga martial arts.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=gaBdgu00otE`;
+});
+
+movie40.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Rambo First Blood Part 3`;
+
+    movieInfo.textContent = `
+    Director: Peter MacDonald
+    Actors: Sylvester Stallone, Richard Crenna, Marc de Jonge
+    Relese Date: 25 May 1988
+    IMDb Rate: 5.8/10 
+    `;
+
+    movieStory.textContent = `Weary of the horrors of war, the expert in guerrilla tactics, John Rambo, has settled in exotic Thailand since the suicide rescue mission in Rambo: First Blood Part II (1985). However, John will return to action, when his grizzled mentor, Colonel Sam Trautman, gets trapped behind the enemy lines in Soviet-infested Afghanistan, after a botched attempt to aid the remaining rebel pockets. Now, there's no turning back--and as each minute counts--John must act fast before it's too late. Once more, the government will deny John's existence if the men of the ruthless Soviet Colonel, Zaysen, capture him. But, John shows no mercy, and, this time, he fights for his friend. Can Rambo save the only man who ever stood by him?`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=IQt9bDOGTgg`;
+});
+
+movie41.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Time Machine`;
+
+    movieInfo.textContent = `
+    Director: Simon Wells
+    Actors: Guy Pearce, Yancey Arias, Mark Addy
+    Relese Date: 08 March 2002
+    IMDb Rate: 5.9/10 
+    `;
+
+    movieStory.textContent = `Based on the classic sci-fi novel by H.G. Wells, scientist and inventor, Alexander Hartdegen, is determined to prove that time travel is possible. His determination is turned to desperation by a personal tragedy that now drives him to want to change the past. Testing his theories with a time machine of his own invention, Hartdegen is hurtled 800,000 years into the future, where he discovers that mankind has divided into the hunter - and the hunted.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=90T7iLuzFgg`;
+});
+
+movie42.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `World War Z`;
+
+    movieInfo.textContent = `
+    Director: Marc Forster
+    Actors: Brad Pitt, Mireille Enos, Daniella Kertesz
+    Relese Date: 21 June 2013
+    IMDb Rate: 7.0/10 
+    `;
+
+    movieStory.textContent = `Life for former United Nations investigator Gerry Lane and his family seems content. Suddenly, the world is plagued by a mysterious infection turning whole human populations into rampaging mindless zombies. After barely escaping the chaos, Lane is persuaded to go on a mission to investigate this disease. What follows is a perilous trek around the world where Lane must brave horrific dangers and long odds to find answers before human civilization falls.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=Md6Dvxdr0AQ`;
+});
+
+movie43.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Ip Man 3`;
+
+    movieInfo.textContent = `
+    Director: Wilson Yip
+    Actors: Donnie Yen, Lynn Xiong, Jin Zhang
+    Relese Date: 24 December 2015
+    IMDb Rate: 7.0/10 
+    `;
+
+    movieStory.textContent = `The year is 1959, where Ip Man lives in Hong Kong with his wife and his younger son. Trouble arises when a corrupt property developer and his thugs terrorize the school where Ip Man's son goes to. Ip Man and his disciples have to help the police guard the school day and night. On the other hand, Ip Man has to deal with his wife's terminal sickness, and at the same time faces a challenge from another Wing Chun fighter who ambitiously seeks to claim the Wing Chun Grandmaster title.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=yo7z8c87Egg`;
+});
+
+movie44.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Looper`;
+
+    movieInfo.textContent = `
+    Director: Rian Johnson
+    Actors: Joseph Gordon-Levitt, Bruce Willis, Emily Blunt
+    Relese Date: 28 September 2012
+    IMDb Rate: 7.4/10 
+    `;
+
+    movieStory.textContent = `Joe is classified as a "looper", a job in which his employers use time travel to send men from the future to be killed into the past, where Joe can properly dispose of their bodies. However, to tie up loose ends and erase the evidence of his ever being a looper, Joe knows that one day his future self will be sent back for him to kill. When this day comes, Joe's future self is prepared and escapes, and the two men struggle separately in the past trying to evade capture and attempting to fulfill their own personal agendas.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=2iQuhsmtfHw`;
+});
+
+movie45.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Brothers Grimsby`;
+
+    movieInfo.textContent = `
+    Director: Louis Leterrier
+    Actors: Sacha Baron Cohen, Mark Strong, Rebel Wilson
+    Relese Date: 11 March 2016
+    IMDb Rate: 6.2/10 
+    `;
+
+    movieStory.textContent = `MI6's top assassin (Mark Strong) has a brother. Unfortunately for him, he's a football hooligan (Sacha Baron Cohen) from the town of Grimsby. Nobby has everything a man from the poor English fishing town of Grimsby could want - 9 children and the most attractive girlfriend in northern England (Rebel Wilson). There's only one thing missing in his life: his little brother, Sebastian. After they were adopted by different families as children, Nobby spent 28 years searching for him. Upon hearing of his location, Nobby sets off to reunite with his brother, unaware that not only is his brother an MI6 agent, but he's just uncovered a plot that puts the world in danger. On the run and wrongfully accused, Sebastian realizes that if he is going to save the world, he will need the help of its biggest idiot.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=_YtclB_02wA`;
+});
+
+movie46.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Focus`;
+
+    movieInfo.textContent = `
+    Director: Glenn Ficarra, John Requa
+    Actors: Will Smith, Margot Robbie, Rodrigo Santoro
+    Relese Date: 27 February 2015
+    IMDb Rate: 6.6/10 
+    `;
+
+    movieStory.textContent = `Nicky Spurgeon is an extremely accomplished con man who takes an amateur con artist, Jess, under his wing. Nicky and Jess become romantically involved, and with Nicky's profession of being a liar and a cheater for a living, he realizes that deception and love are things that don't go together. They split, only to see each other three years later... And things get messy.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=MxCRgtdAuBo`;
+});
+
+movie47.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Bloodshot`;
+
+    movieInfo.textContent = `
+    Director: Dave Wilson
+    Actors: Vin Diesel, Eiza González, Sam Heughan
+    Relese Date: 13 March 2020
+    IMDb Rate: 5.7/10 
+    `;
+
+    movieStory.textContent = `Ray Garrison, an elite soldier who was killed in battle, is brought back to life by an advanced technology that gives him the ability of super human strength and fast healing. With his new abilities, he goes after the man who killed his wife, or at least, who he believes killed his wife. He soon comes to learn that not everything he learns can be trusted. The true question is: Can he even trust himself?`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=vOUVVDWdXbo`;
+});
+
+movie48.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Rambo First Blood Part 4`;
+
+    movieInfo.textContent = `
+    Director: Sylvester Stallone
+    Actors: Sylvester Stallone, Julie Benz, Matthew Marsden
+    Relese Date: 25 January 2008
+    IMDb Rate: 7.0/10 
+    `;
+
+    movieStory.textContent = `Vietnam veteran John Rambo has survived many harrowing ordeals in his lifetime and has since withdrawn into a simple and secluded existence in Thailand, where he spends his time capturing snakes for local entertainers, and chauffeuring locals in his old PT boat. Even though he is looking to avoid trouble, trouble has a way of finding him: a group of Christian human rights missionaries, led by Michael Burnett and Sarah Miller, approach Rambo with the desire to rent his boat to travel up the river to Burma. For over fifty years, Burma has been a war zone. The Karen people of the region, who consist of peasants and farmers, have endured brutally oppressive rule from the murderous Burmese military and have been struggling for survival every single day. After some inner contemplation, Rambo accepts the offer and takes Michael, Sarah, and the rest of the missionaries up the river. When the missionaries finally arrive at the Karen village, they find themselves part of a raid by the sadistic Major Pa Tee Tint and a slew of Burmese army men. A portion of the villagers and missionaries are tortured and viciously murdered, while Tint and his men hold the remainder captive. Concerned by their disappearance, the minister in charge of the mission gathers a group of mercenaries and pleas Rambo transport them with his boat, since he knows their last exact location. But Rambo can't stay behind: he joins the team where he belongs, to liberate the survivors from the clutches of Major Tint in what may be one of his deadliest missions ever.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=2CRjdwRYQbU`;
 });
