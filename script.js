@@ -65,6 +65,31 @@ const movie46 = document.querySelector(`.movie-46`);
 const movie47 = document.querySelector(`.movie-47`);
 const movie48 = document.querySelector(`.movie-48`);
 
+const movie49 = document.querySelector(`.movie-49`);
+const movie50 = document.querySelector(`.movie-50`);
+const movie51 = document.querySelector(`.movie-51`);
+const movie52 = document.querySelector(`.movie-52`);
+const movie53 = document.querySelector(`.movie-53`);
+const movie54 = document.querySelector(`.movie-54`);
+const movie55 = document.querySelector(`.movie-55`);
+const movie56 = document.querySelector(`.movie-56`);
+const movie57 = document.querySelector(`.movie-57`);
+const movie58 = document.querySelector(`.movie-58`);
+const movie59 = document.querySelector(`.movie-59`);
+const movie60 = document.querySelector(`.movie-60`);
+const movie61 = document.querySelector(`.movie-61`);
+const movie62 = document.querySelector(`.movie-62`);
+const movie63 = document.querySelector(`.movie-63`);
+const movie64 = document.querySelector(`.movie-64`);
+const movie65 = document.querySelector(`.movie-65`);
+const movie66 = document.querySelector(`.movie-66`);
+const movie67 = document.querySelector(`.movie-67`);
+const movie68 = document.querySelector(`.movie-68`);
+const movie69 = document.querySelector(`.movie-69`);
+const movie70 = document.querySelector(`.movie-70`);
+const movie71 = document.querySelector(`.movie-71`);
+const movie72 = document.querySelector(`.movie-72`);
+
 
 moviesPageOne.classList.remove(`hidden-page1`);
 buttonPage1.style.backgroundColor = `rgb(255, 255, 255)`;
@@ -988,4 +1013,436 @@ movie48.addEventListener(`click`, () =>{
     movieStory.textContent = `Vietnam veteran John Rambo has survived many harrowing ordeals in his lifetime and has since withdrawn into a simple and secluded existence in Thailand, where he spends his time capturing snakes for local entertainers, and chauffeuring locals in his old PT boat. Even though he is looking to avoid trouble, trouble has a way of finding him: a group of Christian human rights missionaries, led by Michael Burnett and Sarah Miller, approach Rambo with the desire to rent his boat to travel up the river to Burma. For over fifty years, Burma has been a war zone. The Karen people of the region, who consist of peasants and farmers, have endured brutally oppressive rule from the murderous Burmese military and have been struggling for survival every single day. After some inner contemplation, Rambo accepts the offer and takes Michael, Sarah, and the rest of the missionaries up the river. When the missionaries finally arrive at the Karen village, they find themselves part of a raid by the sadistic Major Pa Tee Tint and a slew of Burmese army men. A portion of the villagers and missionaries are tortured and viciously murdered, while Tint and his men hold the remainder captive. Concerned by their disappearance, the minister in charge of the mission gathers a group of mercenaries and pleas Rambo transport them with his boat, since he knows their last exact location. But Rambo can't stay behind: he joins the team where he belongs, to liberate the survivors from the clutches of Major Tint in what may be one of his deadliest missions ever.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=2CRjdwRYQbU`;
+});
+
+movie49.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Oblivion`;
+
+    movieInfo.textContent = `
+    Director: Joseph Kosinski
+    Actors: Tom Cruise, Morgan Freeman, Andrea Riseborough
+    Relese Date: 19 April 2013
+    IMDb Rate: 7.0/10 
+    `;
+
+    movieStory.textContent = `One of the few remaining drone repairmen assigned to Earth, its surface devastated after decades of war with the alien Scavs, discovers a crashed spacecraft with contents that bring into question everything he believed about the war, and may even put the fate of mankind in his hands.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=XmIIgE7eSak`;
+});
+
+movie50.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Troy`;
+
+    movieInfo.textContent = `
+    Director: Wolfgang Petersen
+    Actors: Brad Pitt, Eric Bana, Orlando Bloom
+    Relese Date: 14 May 2004
+    IMDb Rate: 7.3/10 
+    `;
+
+    movieStory.textContent = `It is the year 1250 B.C. during the late Bronze age. Two emerging nations begin to clash after Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband, Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. So they set off with 1,000 ships holding 50,000 Greeks to Troy. With the help of Achilles, the Greeks are able to fight the never before defeated Trojans. But they come to a stop by Hector, Prince of Troy. The whole movie shows their battle struggles and the foreshadowing of fate in this adaptation of Homer's classic "The Iliad."`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=znTLzRJimeY`;
+});
+
+movie51.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `John Wick`;
+
+    movieInfo.textContent = `
+    Director: Chad Stahelski, David Leitch
+    Actors: Keanu Reeves, Michael Nyqvist, Alfie Allen
+    Relese Date: 24 October 2014
+    IMDb Rate: 7.4/10 
+    `;
+
+    movieStory.textContent = `With the untimely death of his beloved wife still bitter in his mouth, John Wick, the expert former assassin, receives one final gift from her--a precious keepsake to help John find a new meaning in life now that she is gone. But when the arrogant Russian mob prince, Iosef Tarasov, and his men pay Wick a rather unwelcome visit to rob him of his prized 1969 Mustang and his wife's present, the legendary hitman will be forced to unearth his meticulously concealed identity. Blind with revenge, John will immediately unleash a carefully orchestrated maelstrom of destruction against the sophisticated kingpin, Viggo Tarasov, and his family, who are fully aware of his lethal capacity. Now, only blood can quench the boogeyman's thirst for retribution.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=2AUmvWm5ZDQ`;
+});
+
+movie52.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Terminator`;
+
+    movieInfo.textContent = `
+    Director: James Cameron
+    Actors: Arnold Schwarzenegger, Linda Hamilton, Michael Biehn
+    Relese Date: 26 October 1984
+    IMDb Rate: 8.1/10 
+    `;
+
+    movieStory.textContent = `Sent back from a dystopian 2029--where the cold machines have conquered the entire world--to 1984 Los Angeles, the indestructible cyborg-assassin known as the "Terminator" commences his deadly mission to kill humankind's most important woman: the unsuspecting Sarah Connor. However, from the same war-torn post-apocalyptic future comes a battle-scarred defender--Kyle Reese, a brave soldier of the human Resistance Army--bent on stopping the cybernetic killer from eliminating the world's last hope. But, the Terminator has no feelings, he doesn't sleep, and above all, he won't stop until he carries out his grim task. Does our future lie in our past?`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=k64P4l2Wmeg`;
+});
+
+movie53.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Expendables`;
+
+    movieInfo.textContent = `
+    Director: Sylvester Stallone
+    Actors: Sylvester Stallone, Jason Statham, Jet Li
+    Relese Date: 13 August 2010
+    IMDb Rate: 6.4/10 
+    `;
+
+    movieStory.textContent = `Barney Ross leads the "Expendables", a band of highly skilled mercenaries including knife enthusiast Lee Christmas, martial arts expert Yin Yang, heavy weapons specialist Hale Caesar, demolitionist Toll Road and loose-cannon sniper Gunner Jensen. When the group is commissioned by the mysterious Mr. Church to assassinate the merciless dictator of a small South American island, Barney and Lee head to the remote locale to scout out their opposition. Once there, they meet with local rebel Sandra and discover the true nature of the conflict engulfing the city. When they escape the island and Sandra stays behind, Ross must choose to either walk away and save his own life - or attempt a suicidal rescue mission that might just save his soul.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=8KtYRALe-xo`;
+});
+
+movie54.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Inception`;
+
+    movieInfo.textContent = `
+    Director: Christopher Nolan
+    Actors: Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page
+    Relese Date: 16 July 2010
+    IMDb Rate: 6.4/10 
+    `;
+
+    movieStory.textContent = `Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible, inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea, but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=YoHD9XEInc0`;
+});
+
+movie55.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `John Wick: Chapter 2`;
+
+    movieInfo.textContent = `
+    Director: Chad Stahelski
+    Actors: Keanu Reeves, Riccardo Scamarcio, Ian McShane
+    Relese Date: 10 February 2017
+    IMDb Rate: 7.4/10 
+    `;
+
+    movieStory.textContent = `Bound by an inescapable blood debt to the Italian crime lord, Santino D'Antonio, and with his precious 1969 Mustang still stolen, John Wick--the taciturn and pitiless assassin who thirsts for seclusion--is forced to visit Italy to honour his promise. But, soon, the Bogeyman will find himself dragged into an impossible task in the heart of Rome's secret criminal society, as every killer in the business dreams of cornering the legendary Wick who now has an enormous price on his head. Drenched in blood and mercilessly hunted down, John Wick can surely forget a peaceful retirement as no one can make it out in one piece.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=XGk2EfbD_Ps`;
+});
+
+movie56.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Fight Club`;
+
+    movieInfo.textContent = `
+    Director: David Fincher
+    Actors: Brad Pitt, Edward Norton, Meat Loaf
+    Relese Date: 15 October 1999
+    IMDb Rate: 8.8/10 
+    `;
+
+    movieStory.textContent = `A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=O1nDozs-LxI`;
+});
+
+movie57.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Expendables 2`;
+
+    movieInfo.textContent = `
+    Director: Simon West
+    Actors: Sylvester Stallone, Liam Hemsworth, Randy Couture
+    Relese Date: 17 August 2012
+    IMDb Rate: 6.6/10 
+    `;
+
+    movieStory.textContent = `Barney Ross is approached by CIA man Church, who wants him and his guns for hire to go to the former Soviet Union to retrieve something that was on a plane that crashed. Church doesn't tell him what he is getting. And Church sends a woman, Maggie with him to make sure he gets it. They find the plane and get the thing but some men take one of Barney's people hostage and the leader tells him to give him what they got or he'll kill his hostage. They give it to him but he kills his hostage anyway. Barney asks Maggie what was so important about that thing. She says that it showed the location of a Russian plutonium storage mine. Barney decides to track the man down and deal with him. They track them down and discover that the man they seek is Vilain who leads a group known as The Sangs and that they have taken all the men from the surrounding villages to work the mine.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=ip_CYHdyUBs`;
+});
+
+movie58.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Terminator 2: Judgment Day`;
+
+    movieInfo.textContent = `
+    Director: James Cameron
+    Actors: Arnold Schwarzenegger, Linda Hamilton, Edward Furlong
+    Relese Date: 03 July 1991
+    IMDb Rate: 8.6/10 
+    `;
+
+    movieStory.textContent = `Over 10 years have passed since the first machine called The Terminator tried to kill Sarah Connor and her unborn son, John. The man who will become the future leader of the human resistance against the Machines is now a healthy young boy. However, another Terminator, called the T-1000, is sent back through time by the supercomputer Skynet. This new Terminator is more advanced and more powerful than its predecessor and its mission is to kill John Connor when he's still a child. However, Sarah and John do not have to face the threat of the T-1000 alone. Another Terminator (identical to the same model that tried and failed to kill Sarah Connor in 1984) is also sent back through time to protect them. Now, the battle for tomorrow has begun.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=CRRlbK5w8AE`;
+});
+
+movie59.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Safe`;
+
+    movieInfo.textContent = `
+    Director: Boaz Yakin
+    Actors: Jason Statham, Catherine Chan, Chris Sarandon
+    Relese Date: 27 April 2012
+    IMDb Rate: 6.5/10 
+    `;
+
+    movieStory.textContent = `In China, the girl Mei is a genius that looks like a computer in numbers. She is abducted by the Chinese Triads and the boss Han Jiao takes Mei to New York's Chinatown in order to help him in his criminal activities. Meanwhile, the fighter Luke Wright has his life destroyed when he wins a fight against the will of the Russian Mafia and accidentally kills his opponent. The Russian mobsters kill his wife and the alcoholic Luke wanders aimlessly on the streets and homeless shelters. One day, Han Jiao asks Mei to memorize a long number and soon the Russian Mafia abducts the girl from the Chinese mobs. She escapes from the mobsters and is chased by the Russians; by the corrupt detectives from the NYPD; and by the Triads. When Luke sees the girl fleeing from the Russian mobs in the subway, he protects the girl and discovers that the number she had memorized is the combination of a safe where the Triads keep 30 million dollars. Luke is an elite agent and uses his skills to protect the girl.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=gU-wjVD_58c`;
+});
+
+movie60.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Memento`;
+
+    movieInfo.textContent = `
+    Director: Christopher Nolan
+    Actors: Guy Pearce, Carrie-Anne Moss, Joe Pantoliano
+    Relese Date: 25 May 2001
+    IMDb Rate: 8.4/10 
+    `;
+
+    movieStory.textContent = `Memento chronicles two separate stories of Leonard, an ex-insurance investigator who can no longer build new memories, as he attempts to find the murderer of his wife, which is the last thing he remembers. One story line moves forward in time while the other tells the story backwards revealing more each time.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=HDWylEQSwFo`;
+});
+
+movie61.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Van Helsing`;
+
+    movieInfo.textContent = `
+    Director: Stephen Sommers
+    Actors: Hugh Jackman, Kate Beckinsale, Richard Roxburgh
+    Relese Date: 03 May 2004
+    IMDb Rate: 6.0/10 
+    `;
+
+    movieStory.textContent = `Van Helsing is in the world to rid all evil, even if not everyone agrees with him. The Vatican sends the monster hunter and his ally, Carl, to Transylvania. They have been sent to this land to stop the powerful Count Dracula. Whilst there they join forces with a Gypsy Princess called Anna Valerious, who is determined to end an ancient curse on her family by destroying the vampire. They just don't know how!`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=3fdRKme00uI`;
+});
+
+movie62.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `John Wick: Chapter 3`;
+
+    movieInfo.textContent = `
+    Director: Chad Stahelski
+    Actors: Keanu Reeves, Halle Berry, Ian McShane
+    Relese Date: 17 May 2019
+    IMDb Rate: 7.4/10 
+    `;
+
+    movieStory.textContent = `In this third installment of the adrenaline-fueled action franchise, skilled assassin John Wick (Keanu Reeves) returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin's guild, the High Table, John Wick is excommunicado, but the world's most ruthless hit men and women await his every turn.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=M7XM597XO94`;
+});
+
+movie63.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Martian`;
+
+    movieInfo.textContent = `
+    Director: Ridley Scott
+    Actors: Matt Damon, Jessica Chastain, Kristen Wiig
+    Relese Date: 02 October 2015
+    IMDb Rate: 8.0/10 
+    `;
+
+    movieStory.textContent = `During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive. Millions of miles away, NASA and a team of international scientists work tirelessly to bring "the Martian" home, while his crewmates concurrently plot a daring, if not impossible, rescue mission. As these stories of incredible bravery unfold, the world comes together to root for Watney's safe return.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=ej3ioOneTy8`;
+});
+
+movie64.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Terminator 3: Rise of the Machines`;
+
+    movieInfo.textContent = `
+    Director: Jonathan Mostow
+    Actors: Arnold Schwarzenegger, Nick Stahl, Kristanna Loken
+    Relese Date: 02 July 2003
+    IMDb Rate: 6.3/10 
+    `;
+
+    movieStory.textContent = `More than 10 years after 'Terminator 2', John Connor now exists only as a drifter - living 'off the grid', so no more Terminators from the future can hunt him down. Unfortunately, SkyNet does send another one back - and this one is called the T-X, even more powerful & advanced than the dreaded T-1000. However, another CSM-101 Terminator is also sent back to protect John against the T-X. Now, Skynet is patiently assuming control of civilian computer systems, under the guise of a computer virus. John has also met his future wife, Kate Brewster, whose father - a U.S. Air Force General - is in charge of the military computer systems & is leery of up linking SkyNet. However, when the SkyNet virus infects the U.S military computers & leaves the country open to attack, the machines begin their horrific takeover. Soon a nuclear war will result - and the war against the machines will begin. Can the outdated CSM-101 Terminator eliminate the highly advanced T-X - or will a darker future await man following the nuclear attack?`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=5UgPJhyJmlM`;
+});
+
+movie65.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `The Expendables 3`;
+
+    movieInfo.textContent = `
+    Director: Patrick Hughes
+    Actors: Sylvester Stallone, Jason Statham, Jet Li
+    Relese Date: 15 August 2014
+    IMDb Rate: 6.1/10 
+    `;
+
+    movieStory.textContent = `Barney (Stallone), Christmas (Statham) and the rest of the team comes face-to-face with Conrad Stonebanks (Gibson), who years ago co-founded The Expendables with Barney. Stonebanks subsequently became a ruthless arms trader and someone who Barney was forced to kill - or so he thought. Stonebanks, who eluded death once before, now is making it his mission to end The Expendables -- but Barney has other plans. Barney decides that he has to fight old blood with new blood, and brings in a new era of Expendables team members, recruiting individuals who are younger, faster and more tech-savvy. The latest mission becomes a clash of classic old-school style versus high-tech expertise in the Expendables' most personal battle yet.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=4xD0junWlFc`;
+});
+
+movie66.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Ip Man 4: The Finale`;
+
+    movieInfo.textContent = `
+    Director: Wilson Yip
+    Actors: Donnie Yen, Scott Adkins, Danny Kwok-Kwan Chan
+    Relese Date: 20 December 2019
+    IMDb Rate: 7.0/10 
+    `;
+
+    movieStory.textContent = `Ip Man has to travel to San Francisco to find a new school for his son who just gets expelled. When he attempts to get a recommendation letter from the Chinese Benevolent Association, he finds that the martial arts masters are furious with one of Ip Man's students who teaches Kung Fu to Americans. Meanwhile, discrimination against Chinese is making things even more tense as Ip Man has to stand up for his fellow countrymen as well.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=oCBGTCNJW2g`;
+});
+
+movie67.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Idiocracy`;
+
+    movieInfo.textContent = `
+    Director: Mike Judge
+    Actors: Luke Wilson, Maya Rudolph, Dax Shepard
+    Relese Date: 25 January 2007
+    IMDb Rate: 6.5/10 
+    `;
+
+    movieStory.textContent = `Officer Collins has been spearheading one of the US Army's most secretive experiments to date: the Human Hibernation Project. If successful, the project would store its subjects indefinitely until they are needed most. Their first test subject - Joe Bauers - was not chosen for his superiority. Instead, he's chosen because he's the most average guy in the armed services. But scandal erupts after the experiment takes place - the base is closed, and the president denies any knowledge of the project - Unfortunately, Joe doesn't wake up in a year, he wakes up in 500 years. But during that time human evolution has taken a dramatic downturn. After waking up, Joe takes a prison-assigned IQ test and finds that he's the smartest guy alive. Awaiting a full presidential pardon if he can solve one of the country's biggest problems - the dwindling plant population, Joe races against time to solve this problem. But he alienates half the country in the process. Can he make things right and escape a rather bizarre execution?`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=clYwX8Z43zg`;
+});
+
+movie68.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `War`;
+
+    movieInfo.textContent = `
+    Director: Philip G. Atwell
+    Actors: Jet Li, Jason Statham, Nadine Velazquez
+    Relese Date: 24 August 2007
+    IMDb Rate: 6.2/10 
+    `;
+
+    movieStory.textContent = `After his partner Tom Lone and family are killed apparently by the infamous and elusive assassin Rogue, FBI agent John Crawford becomes obsessed with revenge as his world unravels into a vortex of guilt and betrayal. Rogue eventually resurfaces to settle a score of his own, setting off a bloody crime war between Asian mob rivals Chang of the Triad's and Yakuza boss Shiro. When Jack and Rogue finally come face to face, the ultimate truth of their pasts will be revealed.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=3kItMaElnJQ`;
+});
+
+movie69.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Fearless`;
+
+    movieInfo.textContent = `
+    Director: Ronny Yu
+    Actors: Jet Li, Li Sun, Yong Dong
+    Relese Date: 22 September 2006
+    IMDb Rate: 7.6/10 
+    `;
+
+    movieStory.textContent = `Fearless (2006) by guest contributor Volcan Kacar This brilliant martial arts film not only loosely tells the story of Huo Yuanjia, the marital artist who not only saved China from Western foreign imperialism and the Empire of Japan but protected the nation’s honour.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=23LxENZE8zo`;
+});
+
+movie70.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Source Code`;
+
+    movieInfo.textContent = `
+    Director: Duncan Jones
+    Actors: Jake Gyllenhaal, Michelle Monaghan, Vera Farmiga
+    Relese Date: 01 April 2011
+    IMDb Rate: 7.5/10 
+    `;
+
+    movieStory.textContent = `Army Captain Colter Stevens finds himself working on a special program where his consciousness can be inserted into another human being. The only catch is can only be there for 8 minutes at any given time. That morning, a bomb exploded on a commuter train just outside Chicago. He occupies the body of teacher going to work on that train and is confused as to what he is doing or why he is there as his last memory is of flying his helicopter on a combat mission in Afghanistan. Those in charge of the program explain to him that there is a bomb on the train, and that he must locate it. More importantly, he must identify the bomber as another bombing is expected later that day. He is also told however that he cannot change the past and can only gather information. As he develops a liking for his traveling companion Christina, he sets out to test that theory.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=mnJegNyAb1w`;
+});
+
+movie71.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Arrival`;
+
+    movieInfo.textContent = `
+    Director: Denis Villeneuve
+    Actors: Amy Adams, Jeremy Renner, Forest Whitaker
+    Relese Date: 11 November 2016
+    IMDb Rate: 7.9/10 
+    `;
+
+    movieStory.textContent = `Linguistics professor Louise Banks leads an elite team of investigators when gigantic spaceships touchdown in 12 locations around the world. As nations teeter on the verge of global war, Banks and her crew must race against time to find a way to communicate with the extraterrestrial visitors. Hoping to unravel the mystery, she takes a chance that could threaten her life and quite possibly all of mankind.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=tFMo3UJ4B4g`;
+});
+
+movie72.addEventListener(`click`, () =>{
+    modal.classList.remove(`hidden-modal`);
+    overlay.classList.remove(`hidden-overlay`);
+
+    movieName.textContent = `Absolutely Anything`;
+
+    movieInfo.textContent = `
+    Director: Terry Jones
+    Actors: Simon Pegg, Kate Beckinsale, Sanjeev Bhaskar
+    Relese Date: 12 May 2017
+    IMDb Rate: 5.9/10 
+    `;
+
+    movieStory.textContent = `Some aliens, who travel from planet to planet to see what kind of species inhabit them, come to Earth. And if humans are, according to their standards, decent, they are welcomed to be their friend. And if not, the planet is destroyed. To find out, they choose one inhabitant and give that person the power to do whatever he or she wants. And they choose Neil Clarke (Simon Pegg), a teacher who teaches the special kids. He is constantly being berated by the headmaster and is attracted to his neighbor, Catherine (Kate Beckinsale), but doesn't have the guts to approach her. But now he can do anything he wants, but has to be careful.`;
+
+    buttonWatchTrailer.href = `https://www.youtube.com/watch?v=GvzkU6xF4s8`;
 });
