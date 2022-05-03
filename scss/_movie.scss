@@ -7,8 +7,13 @@
         place-items: center;
         
         img{
-            border: 2px solid rgb(255, 255, 255);
+            border: 15px solid transparent;
             cursor: pointer;
+
+            &:hover{
+                border: 1px solid transparent;
+                transition: 0.7s;
+            }
         }
     }
 }
@@ -22,8 +27,13 @@
         place-items: center;
         
         img{
-            border: 2px solid rgb(255, 255, 255);
+            border: 15px solid transparent;
             cursor: pointer;
+
+            &:hover{
+                border: 1px solid transparent;
+                transition: 0.4s;
+            }
         }
     }
 }
@@ -37,8 +47,13 @@
         place-items: center;
         
         img{
-            border: 2px solid rgb(255, 255, 255);
+            border: 15px solid transparent;
             cursor: pointer;
+
+            &:hover{
+                border: 1px solid transparent;
+                transition: 0.4s;
+            }
         }
     }
 }
