@@ -757,7 +757,7 @@ const movieFunction1 = function(){
 
     movieInfo.textContent = `
     Director: James Foley
-    Actors: Dakota Johnson, Jamie Dornan, Eric Johnson
+    Actors: Dakota Johnson, Jamie Dornan
     Relese Date: 10 February 2017
     IMDb Rate: 4.5/10 
     `;
@@ -774,7 +774,7 @@ const movieFunction2 = function(){
 
     movieInfo.textContent = `
     Director: F. Gary Gray
-    Actors: Vin Diesel, Jason Statham, Dwayne Johnson
+    Actors: Vin Diesel, Jason Statham
     Relese Date: 14 April 2017
     IMDb Rate: 6.6/10 
     `;
@@ -791,7 +791,7 @@ const movieFunction3 = function(){
 
     movieInfo.textContent = `
     Director: Anthony Russo, Joe Russo
-    Actors: Robert Downey Jr., Chris Evans, Mark Ruffalo
+    Actors: Robert Downey Jr., Chris Evans
     Relese Date: 26 Apr 2019
     IMDb Rate: 8.4/10 
     `;
@@ -808,12 +808,12 @@ const movieFunction4 = function(){
 
     movieInfo.textContent = `
     Director: Pierre Morel
-    Actors: Liam Neeson, Maggie Grace, Famke Janssen
+    Actors: Liam Neeson, Maggie Grace
     Relese Date: 30 January 2009
     IMDb Rate: 7.8/10 
     `;
 
-    movieStory.textContent = `Seventeen year-old Kim is the pride and joy of her father Bryan Mills. Bryan is a retired agent who left the Central Intelligence Agency to be near Kim in California. Kim lives with her mother Lenore and her wealthy stepfather Stuart. Kim manages to convince her reluctant father to allow her to travel to Paris with her friend Amanda. When the girls arrive in Paris they share a cab with a stranger named Peter, and Amanda lets it slip that they are alone in Paris. Using this information an Albanian gang of human traffickers kidnaps the girls. Kim barely has time to call her father and give him information. Her father gets to speak briefly to one of the kidnappers and he promises to kill the kidnappers if they do not let his daughter go free. The kidnapper wishes him "good luck," so Bryan Mills travels to Paris to search for his daughter and her friend.`;
+    movieStory.textContent = `A retired CIA agent travels across Europe and relies on his old skills to save his estranged daughter, who has been kidnapped while on a trip to Paris. Seventeen year-old Kim is the pride and joy of her father Bryan Mills. Bryan is a retired agent who left the Central Intelligence Agency to be near Kim in California.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=XK9zL0ze9O4`;
 };
@@ -825,7 +825,7 @@ const movieFunction5 = function(){
 
     movieInfo.textContent = `
     Director: Guy Ritchie
-    Actors: Jason Statham, Holt McCallany, Josh Hartnett
+    Actors: Jason Statham, Holt McCallany
     Relese Date: 07 May 2021
     IMDb Rate: 7.1/10 
     `;
@@ -842,7 +842,7 @@ const movieFunction6 = function(){
 
     movieInfo.textContent = `
     Director: Jake Kasdan
-    Actors: Dwayne Johnson, Karen Gillan, Kevin Hart
+    Actors: Dwayne Johnson, Karen Gillan
     Relese Date: 20 December 2017
     IMDb Rate: 6.9/10 
     `;
@@ -859,12 +859,12 @@ const movieFunction7 = function(){
 
     movieInfo.textContent = `
     Director: Mark Neveldine, Brian Taylor
-    Actors: Jason Statham, Amy Smart, Carlos Sanz
+    Actors: Jason Statham, Amy Smart
     Relese Date: 01 September 2006
     IMDb Rate: 6.9/10 
     `;
 
-    movieStory.textContent = `Poisoned by the potent and deadly mix of synthetic drugs called "The Beijing Cocktail" for getting in the way of the Triads, the tough-as-nails British hitman living in Los Angeles, Chev Chelios, wakes up with a terrible headache. With less than an hour to live, Chev will have to use all the help he can get from his doctor, and use every trick in the book, to consistently keep his heart rate up so that the adrenaline in his bloodstream staves off the effects of the deadly toxin. Now, his heart is pounding faster than any other human being, and as Chelios darts across the city's streets in search of an antidote and the arrogant criminal, Ricky Verona, to exact his revenge, he finds himself compelled to pick fights with no-nonsense drug dealers, murderous assassins, and an army of thugs. But, can Chelios stay alive long enough to protect those he loves, and make it through the day?`;
+    movieStory.textContent = `The plot centres on a British hitman based in Los Angeles named Chev Chelios who is poisoned and must keep his adrenaline flowing constantly in order to keep himself alive. He does so by various methods including taking drugs and getting into fights, while he tries to track down the man who poisoned him.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=8rvYrVTnSWw`;
 };
@@ -876,12 +876,12 @@ const movieFunction8 = function(){
 
     movieInfo.textContent = `
     Director: John McTiernan
-    Actors: Bruce Willis, Alan Rickman, Bonnie Bedelia
+    Actors: Bruce Willis, Alan Rickman
     Relese Date: 20 July 1988
     IMDb Rate: 6.9/10 
     `;
 
-    movieStory.textContent = `Poisoned by the potent and deadly mix of synthetic drugs called "The Beijing Cocktail" for getting in the way of the Triads, the tough-as-nails British hitman living in Los Angeles, Chev Chelios, wakes up with a terrible headache. With less than an hour to live, Chev will have to use all the help he can get from his doctor, and use every trick in the book, to consistently keep his heart rate up so that the adrenaline in his bloodstream staves off the effects of the deadly toxin. Now, his heart is pounding faster than any other human being, and as Chelios darts across the city's streets in search of an antidote and the arrogant criminal, Ricky Verona, to exact his revenge, he finds himself compelled to pick fights with no-nonsense drug dealers, murderous assassins, and an army of thugs. But, can Chelios stay alive long enough to protect those he loves, and make it through the day?`;
+    movieStory.textContent = `An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles. NYPD cop John McClane goes on a Christmas vacation to visit his wife Holly in Los Angeles where she works for the Nakatomi Corporation.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=8rvYrVTnSWw`;
 };
@@ -893,7 +893,7 @@ const movieFunction9 = function(){
 
     movieInfo.textContent = `
     Director: Olivier Megaton
-    Actors: Liam Neeson, Famke Janssen, Maggie Grace
+    Actors: Liam Neeson, Famke Janssen
     Relese Date: 05 October 2012
     IMDb Rate: 6.2/10 
     `;
@@ -910,12 +910,12 @@ const movieFunction10 = function(){
 
     movieInfo.textContent = `
     Director: Louis Leterrier, Corey Yuen
-    Actors: Jason Statham, Shu Qi, Matt Schulze
+    Actors: Jason Statham, Shu Qi
     Relese Date: 11 October 2002
     IMDb Rate: 6.8/10 
     `;
 
-    movieStory.textContent = `Ex-Special Forces operator Frank Martin lives what seems to be a quiet life along the French Mediterranean, hiring himself out as a mercenary "transporter" who moves goods--human or otherwise--from one place to another. No questions asked. Carrying out mysterious and sometimes dangerous tasks in his tricked-out BMW, Frank adheres to a strict set of rules, which he never breaks. Rule One: Never change the deal. Rule Two: No names--Frank doesn't want to know whom he's working for, or what he's transporting. Rule Three: never look in the package. Frank's newest transport seems no different from the countless ones he's done in the past. He's been hired by an American known only as "Wall Street" to make a delivery; but when Frank stops along the route, he notices his package is moving. Violating Rule Three, Frank looks inside the bag, finding its contents to be a beautiful, gagged woman. Frank's steadfast adherence to his other two rules--which make up his basic code of survival--also quickly fails, hurtling him and his new companion on a road leading to shocking secrets, deadly complications, and the last thing that Frank ever expected to come to believe: that rules are made to be broken.`;
+    movieStory.textContent = `Frank Martin is a former soldier now living a solitary existence in France, Frank runs a private business as a "Transporter" a hired criminal whose job is to transport cargo, packages and passengers without question. Playing by the rules, Frank is the best in the business and he has never broken the rules.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=7FnbLyv2oio`;
 };
@@ -927,7 +927,7 @@ const movieFunction11 = function(){
 
     movieInfo.textContent = `
     Director: Francis Ford Coppola
-    Actors: Marlon Brando, Al Pacino, James Caan
+    Actors: Marlon Brando, Al Pacino
     Relese Date: 24 Mart 1972
     IMDb Rate: 9.2/10 
     `;
@@ -944,7 +944,7 @@ const movieFunction12 = function(){
 
     movieInfo.textContent = `
     Director: Antoine Fuqua
-    Actors: Denzel Washington, Marton Csokas, Chloë Grace Moretz
+    Actors: Denzel Washington, Marton Csokas
     Relese Date: 26 September 2014
     IMDb Rate: 7.2/10 
     `;
@@ -961,7 +961,7 @@ const movieFunction13 = function(){
 
     movieInfo.textContent = `
     Director: Mark Neveldine, Brian Taylor
-    Actors: Jason Statham, Amy Smart, Clifton Collins Jr.
+    Actors: Jason Statham, Amy Smart
     Relese Date: 17 April 2009
     IMDb Rate: 6.1/10 
     `;
@@ -978,7 +978,7 @@ const movieFunction14 = function(){
 
     movieInfo.textContent = `
     Director: Renny Harlin
-    Actors: Bruce Willis, William Atherton, Bonnie Bedelia
+    Actors: Bruce Willis, William Atherton
     Relese Date: 03 July 1990
     IMDb Rate: 7.1/10 
     `;
@@ -995,7 +995,7 @@ const movieFunction15 = function(){
 
     movieInfo.textContent = `
     Director: Olivier Megaton
-    Actors: Liam Neeson, Forest Whitaker, Maggie Grace
+    Actors: Liam Neeson, Forest Whitaker
     Relese Date: 16 December 2014
     IMDb Rate: 6.0/10 
     `;
@@ -1012,7 +1012,7 @@ const movieFunction16 = function(){
 
     movieInfo.textContent = `
     Director: Francis Lawrence
-    Actors: Will Smith, Alice Braga, Charlie Tahan
+    Actors: Will Smith, Alice Braga
     Relese Date: 14 December 2007
     IMDb Rate: 7.2/10 
     `;
@@ -1029,7 +1029,7 @@ const movieFunction17 = function(){
 
     movieInfo.textContent = `
     Director: Louis Leterrier
-    Actors: Jason Statham, Amber Valletta, Kate Nauta
+    Actors: Jason Statham, Amber Valletta
     Relese Date: 02 September 2005
     IMDb Rate: 6.3/10 
     `;
@@ -1046,7 +1046,7 @@ const movieFunction18 = function(){
 
     movieInfo.textContent = `
     Director: Antoine Fuqua
-    Actors: Denzel Washington, Pedro Pascal, Ashton Sanders
+    Actors: Denzel Washington, Pedro Pascal
     Relese Date: 20 July 2018
     IMDb Rate: 6.7/10 
     `;
@@ -1063,7 +1063,7 @@ const movieFunction19 = function(){
 
     movieInfo.textContent = `
     Director: Olivier Megaton
-    Actors: Jason Statham, Robert Knepper, Natalya Rudakova
+    Actors: Jason Statham, Robert Knepper
     Relese Date: 26 November 2008
     IMDb Rate: 6.0/10 
     `;
@@ -1080,7 +1080,7 @@ const movieFunction20 = function(){
 
     movieInfo.textContent = `
     Director: John McTiernan
-    Actors: Bruce Willis, Jeremy Irons, Samuel L. Jackson
+    Actors: Bruce Willis, Samuel L. Jackson
     Relese Date: 19 May 1995
     IMDb Rate: 7.6/10 
     `;
@@ -1097,7 +1097,7 @@ const movieFunction21 = function(){
 
     movieInfo.textContent = `
     Director: Jaume Collet-Serra
-    Actors: Liam Neeson, Vera Farmiga, Patrick Wilson
+    Actors: Liam Neeson, Vera Farmiga
     Relese Date: 12 January 2018
     IMDb Rate: 6.3/10 
     `;
@@ -1114,7 +1114,7 @@ const movieFunction22 = function(){
 
     movieInfo.textContent = `
     Director: Alejandro G. Iñárritu
-    Actors: Leonardo DiCaprio, Tom Hardy, Will Poulter
+    Actors: Leonardo DiCaprio, Tom Hardy
     Relese Date: 08 January 2016
     IMDb Rate: 8.0/10 
     `;
@@ -1131,12 +1131,12 @@ const movieFunction23 = function(){
 
     movieInfo.textContent = `
     Director: Rawson Marshall Thurber
-    Actors: Dwayne Johnson, Kevin Hart, Danielle Nicolet
+    Actors: Dwayne Johnson, Kevin Hart
     Relese Date: 17 June 2016
     IMDb Rate: 6.3/10 
     `;
 
-    movieStory.textContent = `Calvin Joyner was voted in high school the guy most likely to succeed. 20 years later he's an accountant. As his high school reunion approaches, he tries to make contact with his old schoolmates. And someone named Bob Stone contacts him. He says that he was known as Robbie Weirdicht in school. Calvin remembers that he was picked on, as a matter of fact after an extremely nasty prank he left school. They agree to meet and Calvin is surprised by how much he has changed. Bob asks Calvin to help him out. He says yes and the next thing he knows some men burst into his home. They're CIA, the one in charge is looking for Stone, she says he's a rogue agent. When they can't find Bob they leave. Later he approaches Calvin telling him, he is not a rogue agent, he's trying to find a person known as the Black Badger who is planning to sell some information that in the wrong hands can be disastrous. so he needs Calvin's help to stop him. Calvin's not sure whom he should believe.`;
+    movieStory.textContent = `The film stars Kevin Hart and Dwayne Johnson as two old high school classmates who go on the run after one of them joins the CIA to save the world from a terrorist who intends to sell satellite codes.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=0FKctBraQj0`;
 };
@@ -1148,7 +1148,7 @@ const movieFunction24 = function(){
 
     movieInfo.textContent = `
     Director: Eric Bress, J. Mackye Gruber
-    Actors: Ashton Kutcher, Amy Smart, Melora Walters
+    Actors: Ashton Kutcher, Amy Smart
     Relese Date: 23 January 2004
     IMDb Rate: 7.4/10 
     `;
@@ -1165,7 +1165,7 @@ const movieFunction25 = function(){
 
     movieInfo.textContent = `
     Director: Larry Charles
-    Actors: Sacha Baron Cohen, Anna Faris, John C. Reilly
+    Actors: Sacha Baron Cohen, Anna Faris
     Relese Date: 16 May 2012
     IMDb Rate: 6.4/10 
     `;
@@ -1182,7 +1182,7 @@ const movieFunction26 = function(){
 
     movieInfo.textContent = `
     Director: Simon West
-    Actors: Jason Statham, Ben Foster, Donald Sutherland
+    Actors: Jason Statham, Ben Foster
     Relese Date: 28 January 2011
     IMDb Rate: 6.5/10 
     `;
@@ -1199,7 +1199,7 @@ const movieFunction27 = function(){
 
     movieInfo.textContent = `
     Director: Ted Kotcheff
-    Actors: Sylvester Stallone, Brian Dennehy, Richard Crenna
+    Actors: Sylvester Stallone, Brian Dennehy
     Relese Date: 22 October 1982
     IMDb Rate: 7.7/10 
     `;
@@ -1216,7 +1216,7 @@ const movieFunction28 = function(){
 
     movieInfo.textContent = `
     Director: Robert Schwentke
-    Actors: Ryan Reynolds, Jeff Bridges, Mary-Louise Parker
+    Actors: Ryan Reynolds, Jeff Bridges
     Relese Date: 19 July 2013
     IMDb Rate: 5.6/10 
     `;
@@ -1233,12 +1233,12 @@ const movieFunction29 = function(){
 
     movieInfo.textContent = `
     Director: Brad Peyton
-    Actors: Dwayne Johnson, Naomie Harris, Malin Akerman
+    Actors: Dwayne Johnson, Naomie Harris
     Relese Date: 13 April 2018
     IMDb Rate: 6.1/10 
     `;
 
-    movieStory.textContent = `Athena-1, a space station owned by gene manipulation company Energyne, is destroyed after a laboratory rat mutates and wreaks havoc. Dr. Kerry Atkins, the lone surviving crew member, is ordered by CEO Claire Wyden to retrieve research canisters containing a pathogen. Atkins is able to flee in the escape pod when the station implodes, but due to damage from the rat it disintegrates upon re-entry, killing her. The falling pieces leave a trail of debris across the United States, including the Everglades in Florida, where a canister is consumed by an American crocodile, and a forest in Wyoming, where a gray wolf is exposed to the pathogen. Primatologist Davis Okoye, a former US Army Special Forces soldier and member of an anti-poaching unit, works at the San Diego Wildlife Sanctuary. He has befriended a rare albino western lowland gorilla named George, having saved him from poachers, and communicates with George using sign language and hand gestures. At night, one of the canisters crash-lands in George's habitat, and George is exposed to the pathogen...`;
+    movieStory.textContent = `It follows a primatologist who must team up with George, an albino western lowland gorilla who turns into a raging creature of enormous size as a result of a rogue experiment, to stop two other mutated animals from destroying Chicago.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=coOKvrsmQiI`;
 };
@@ -1250,12 +1250,12 @@ const movieFunction30 = function(){
 
     movieInfo.textContent = `
     Director: Martin Scorsese
-    Actors: Leonardo DiCaprio, Jonah Hill, Margot Robbie
+    Actors: Leonardo DiCaprio, Jonah Hill
     Relese Date: 25 December 2013
     IMDb Rate: 8.2/10 
     `;
 
-    movieStory.textContent = `In the early 1990s, Jordan Belfort teamed with his partner Donny Azoff and started brokerage firm Stratton Oakmont. Their company quickly grows from a staff of 20 to a staff of more than 250 and their status in the trading community and Wall Street grows exponentially. So much that companies file their initial public offerings through them. As their status grows, so do the amount of substances they abuse, and so do their lies. They draw attention like no other, throwing lavish parties for their staff when they hit the jackpot on high trades. That ultimately leads to Belfort featured on the cover of Forbes Magazine, being called "The Wolf Of Wall St.". With the FBI onto Belfort's trading schemes, he devises new ways to cover his tracks and watch his fortune grow. Belfort ultimately comes up with a scheme to stash their cash in a European bank. But with the FBI watching him like a hawk, how long will Belfort and Azoff be able to maintain their elaborate wealth and luxurious lifestyles?`;
+    movieStory.textContent = `The movie The Wolf of Wall Street is the true story of how rags-to-riches trader Jordan Belfort started with an OTC brokerage firm using pump and dump schemes, but eventually became a main player on Wall Street, where he launched the IPOs of several large companies.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=iszwuX1AK6A`;
 };
@@ -1267,7 +1267,7 @@ const movieFunction31 = function(){
 
     movieInfo.textContent = `
     Director: Zack Snyder
-    Actors: Gerard Butler, Lena Headey, David Wenham
+    Actors: Gerard Butler, Lena Headey
     Relese Date: 09 March 2007
     IMDb Rate: 7.6/10 
     `;
@@ -1284,12 +1284,12 @@ const movieFunction32 = function(){
 
     movieInfo.textContent = `
     Director: Lasse Hallström
-    Actors: Richard Gere, Joan Allen, Cary-Hiroyuki Tagawa
+    Actors: Richard Gere, Joan Allen
     Relese Date: 12 March 2010
     IMDb Rate: 8.1/10 
     `;
 
-    movieStory.textContent = `Commuting by train, music professor Parker Wilson finds an Akita puppy, whose cage broke unnoticed during shipping, leaving his destination unknown, and since the station can't care for it and the dog catcher warns even such cute ones may not be adopted in the two weeks allowed, he kindly takes it home. His bossy, jealous wife Cate initially makes Parker swear it won't stay, but by the time its' clear nobody will claim him and an adoption candidate is found, she agrees to keep the dog, who won over their daughter Andy and her fiance Michael at first sight. Parker's Japanese college friend Ken inspires naming the pup Hachi(ko), and is pleasantly surprised when Parker successfully tackles the challenge to get it to fetch, which Akitas don't usually do. Hachi makes a habit of waiting for his equally doting master at the station every evening, but after a cardiac crisis, Parker dies. Hachi refuses to accept this, being moved to Michael's home as Cate moves out, waiting for a master who can never come home again, by now collectively adopted by sympathizing town-folk. The story is told in flashbacks as class assignment 'my hero' by Michael's teen son Robbie, who also gets an Akita puppy.`;
+    movieStory.textContent = `This heartwarming true story is an American adaptation of a Japanese tale about a loyal dog named Hachiko. This very special friend would accompany his master to the train station every day and return each afternoon to greet him after work.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=TIl2o1hm1F4`;
 };
@@ -1301,7 +1301,7 @@ const movieFunction33 = function(){
 
     movieInfo.textContent = `
     Director: Wilson Yip
-    Actors: Donnie Yen, Simon Yam, Siu-Wong Fan
+    Actors: Donnie Yen, Simon Yam
     Relese Date: 12 December 2008
     IMDb Rate: 8.0/10 
     `;
@@ -1318,12 +1318,12 @@ const movieFunction34 = function(){
 
     movieInfo.textContent = `
     Director: Dennis Gansel
-    Actors: Jason Statham, Jessica Alba, Tommy Lee Jones
+    Actors: Jason Statham, Jessica Alba
     Relese Date: 26 August 2016
     IMDb Rate: 5.7/10 
     `;
 
-    movieStory.textContent = `Arthur Bishop, the master assassin who faked his death in hopes of putting that part of his ;life behind him, now lives a quiet life in Rio. But someone who knows who he is shows up and tells him, that if he wants to continue living this life, he will do three jobs for someone. Bishop tries to tell them he has the wrong man but they know who he is and if he won't do the job, they will take him but he gets away. He then goes to a resort in Thailand run by a friend, Mae, where he tries to find out who is looking for him. Later a woman named Gina shows up looking for medical assistance and Mae can't help but notice bruises all over her body. Mae deduces she's a battered woman and when Mae hears her being beaten, Mae asks Bishop to help her. He goes and kills the guy she's with. He kills the man and then sets fire to the boat he's on. But he sees that Gina has a photo of him. He deduces that they one who wants him, sent her. He confronts her and she admits that she works at a children's shelter in Cambodia and that someone told her if she didn't do what he said, the children would be endanger. While waiting for the man to come, they get close. And when the man's people comes, they grab them. Bishop is brought to the man who wants him to do the jobs and he tells Bishop that if he doesn't do it, Gina will be killed. So Bishop has no choice but to do it.`;
+    movieStory.textContent = `Arthur Bishop (Jason Statham) returns as the Mechanic in the sequel to the 2011 global hit. When someone from his past forces him back into the business, Bishop has to complete an impossible list of assassinations of the most dangerous men in the world.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=G-P3f_wDXvs`;
 };
@@ -1335,7 +1335,7 @@ const movieFunction35 = function(){
 
     movieInfo.textContent = `
     Director: George P. Cosmatos
-    Actors: Sylvester Stallone, Richard Crenna, Charles Napier
+    Actors: Sylvester Stallone, Richard Crenna
     Relese Date: 22 May 1985
     IMDb Rate: 6.5/10 
     `;
@@ -1352,7 +1352,7 @@ const movieFunction36 = function(){
 
     movieInfo.textContent = `
     Director: Martin Scorsese
-    Actors: Leonardo DiCaprio, Emily Mortimer, Mark Ruffalo
+    Actors: Leonardo DiCaprio, Emily Mortimer
     Relese Date: 19 February 2010
     IMDb Rate: 8.2/10 
     `;
@@ -1369,7 +1369,7 @@ const movieFunction37 = function(){
 
     movieInfo.textContent = `
     Director: Gary Fleder
-    Actors: Jason Statham, James Franco, Winona Ryder
+    Actors: Jason Statham, James Franco
     Relese Date: 27 November 2013
     IMDb Rate: 6.5/10 
     `;
@@ -1386,7 +1386,7 @@ const movieFunction38 = function(){
 
     movieInfo.textContent = `
     Director: Christopher Nolan
-    Actors: Matthew McConaughey, Anne Hathaway, Jessica Chastain
+    Actors: Matthew McConaughey, Anne Hathaway
     Relese Date: 07 November 2014
     IMDb Rate: 8.6/10 
     `;
@@ -1403,7 +1403,7 @@ const movieFunction39 = function(){
 
     movieInfo.textContent = `
     Director: Wilson Yip
-    Actors: Donnie Yen, Xiaoming Huang, Sammo Kam-Bo Hung
+    Actors: Donnie Yen, Xiaoming Huang
     Relese Date: 29 April 2010
     IMDb Rate: 7.5/10 
     `;
@@ -1420,7 +1420,7 @@ const movieFunction40 = function(){
 
     movieInfo.textContent = `
     Director: Peter MacDonald
-    Actors: Sylvester Stallone, Richard Crenna, Marc de Jonge
+    Actors: Sylvester Stallone, Richard Crenna
     Relese Date: 25 May 1988
     IMDb Rate: 5.8/10 
     `;
@@ -1437,7 +1437,7 @@ const movieFunction41 = function(){
 
     movieInfo.textContent = `
     Director: Simon Wells
-    Actors: Guy Pearce, Yancey Arias, Mark Addy
+    Actors: Guy Pearce, Yancey Arias
     Relese Date: 08 March 2002
     IMDb Rate: 5.9/10 
     `;
@@ -1454,7 +1454,7 @@ const movieFunction42 = function(){
 
     movieInfo.textContent = `
     Director: Marc Forster
-    Actors: Brad Pitt, Mireille Enos, Daniella Kertesz
+    Actors: Brad Pitt, Mireille Enos
     Relese Date: 21 June 2013
     IMDb Rate: 7.0/10 
     `;
@@ -1471,7 +1471,7 @@ const movieFunction43 = function(){
 
     movieInfo.textContent = `
     Director: Wilson Yip
-    Actors: Donnie Yen, Lynn Xiong, Jin Zhang
+    Actors: Donnie Yen, Lynn Xiong
     Relese Date: 24 December 2015
     IMDb Rate: 7.0/10 
     `;
@@ -1488,7 +1488,7 @@ const movieFunction44 = function(){
 
     movieInfo.textContent = `
     Director: Rian Johnson
-    Actors: Joseph Gordon-Levitt, Bruce Willis, Emily Blunt
+    Actors: Joseph Gordon-Levitt, Bruce Willis
     Relese Date: 28 September 2012
     IMDb Rate: 7.4/10 
     `;
@@ -1505,7 +1505,7 @@ const movieFunction45 = function(){
 
     movieInfo.textContent = `
     Director: Louis Leterrier
-    Actors: Sacha Baron Cohen, Mark Strong, Rebel Wilson
+    Actors: Sacha Baron Cohen, Mark Strong
     Relese Date: 11 March 2016
     IMDb Rate: 6.2/10 
     `;
@@ -1522,7 +1522,7 @@ const movieFunction46 = function(){
 
     movieInfo.textContent = `
     Director: Glenn Ficarra, John Requa
-    Actors: Will Smith, Margot Robbie, Rodrigo Santoro
+    Actors: Will Smith, Margot Robbie
     Relese Date: 27 February 2015
     IMDb Rate: 6.6/10 
     `;
@@ -1539,7 +1539,7 @@ const movieFunction47 = function(){
 
     movieInfo.textContent = `
     Director: Dave Wilson
-    Actors: Vin Diesel, Eiza González, Sam Heughan
+    Actors: Vin Diesel, Eiza González
     Relese Date: 13 March 2020
     IMDb Rate: 5.7/10 
     `;
@@ -1556,12 +1556,12 @@ const movieFunction48 = function(){
 
     movieInfo.textContent = `
     Director: Sylvester Stallone
-    Actors: Sylvester Stallone, Julie Benz, Matthew Marsden
+    Actors: Sylvester Stallone, Julie Benz
     Relese Date: 25 January 2008
     IMDb Rate: 7.0/10 
     `;
 
-    movieStory.textContent = `Vietnam veteran John Rambo has survived many harrowing ordeals in his lifetime and has since withdrawn into a simple and secluded existence in Thailand, where he spends his time capturing snakes for local entertainers, and chauffeuring locals in his old PT boat. Even though he is looking to avoid trouble, trouble has a way of finding him: a group of Christian human rights missionaries, led by Michael Burnett and Sarah Miller, approach Rambo with the desire to rent his boat to travel up the river to Burma. For over fifty years, Burma has been a war zone. The Karen people of the region, who consist of peasants and farmers, have endured brutally oppressive rule from the murderous Burmese military and have been struggling for survival every single day. After some inner contemplation, Rambo accepts the offer and takes Michael, Sarah, and the rest of the missionaries up the river. When the missionaries finally arrive at the Karen village, they find themselves part of a raid by the sadistic Major Pa Tee Tint and a slew of Burmese army men. A portion of the villagers and missionaries are tortured and viciously murdered, while Tint and his men hold the remainder captive. Concerned by their disappearance, the minister in charge of the mission gathers a group of mercenaries and pleas Rambo transport them with his boat, since he knows their last exact location. But Rambo can't stay behind: he joins the team where he belongs, to liberate the survivors from the clutches of Major Tint in what may be one of his deadliest missions ever.`;
+    movieStory.textContent = `In Thailand, John Rambo joins a group of mercenaries to venture into war-torn Burma, and rescue a group of Christian aid workers who were kidnapped by the ruthless local infantry unit.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=2CRjdwRYQbU`;
 };
@@ -1573,7 +1573,7 @@ const movieFunction49 = function(){
 
     movieInfo.textContent = `
     Director: Joseph Kosinski
-    Actors: Tom Cruise, Morgan Freeman, Andrea Riseborough
+    Actors: Tom Cruise, Morgan Freeman
     Relese Date: 19 April 2013
     IMDb Rate: 7.0/10 
     `;
@@ -1590,7 +1590,7 @@ const movieFunction50 = function(){
 
     movieInfo.textContent = `
     Director: Wolfgang Petersen
-    Actors: Brad Pitt, Eric Bana, Orlando Bloom
+    Actors: Brad Pitt, Eric Bana
     Relese Date: 14 May 2004
     IMDb Rate: 7.3/10 
     `;
@@ -1607,7 +1607,7 @@ const movieFunction51 = function(){
 
     movieInfo.textContent = `
     Director: Chad Stahelski, David Leitch
-    Actors: Keanu Reeves, Michael Nyqvist, Alfie Allen
+    Actors: Keanu Reeves, Michael Nyqvist
     Relese Date: 24 October 2014
     IMDb Rate: 7.4/10 
     `;
@@ -1624,7 +1624,7 @@ const movieFunction52 = function(){
 
     movieInfo.textContent = `
     Director: James Cameron
-    Actors: Arnold Schwarzenegger, Linda Hamilton, Michael Biehn
+    Actors: Arnold Schwarzenegger, Linda Hamilton
     Relese Date: 26 October 1984
     IMDb Rate: 8.1/10 
     `;
@@ -1641,7 +1641,7 @@ const movieFunction53 = function(){
 
     movieInfo.textContent = `
     Director: Sylvester Stallone
-    Actors: Sylvester Stallone, Jason Statham, Jet Li
+    Actors: Sylvester Stallone, Jason Statham
     Relese Date: 13 August 2010
     IMDb Rate: 6.4/10 
     `;
@@ -1658,7 +1658,7 @@ const movieFunction54 = function(){
 
     movieInfo.textContent = `
     Director: Christopher Nolan
-    Actors: Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page
+    Actors: Leonardo DiCaprio, Joseph Gordon-Levitt
     Relese Date: 16 July 2010
     IMDb Rate: 6.4/10 
     `;
@@ -1675,7 +1675,7 @@ const movieFunction55 = function(){
 
     movieInfo.textContent = `
     Director: Chad Stahelski
-    Actors: Keanu Reeves, Riccardo Scamarcio, Ian McShane
+    Actors: Keanu Reeves, Riccardo Scamarcio
     Relese Date: 10 February 2017
     IMDb Rate: 7.4/10 
     `;
@@ -1692,7 +1692,7 @@ const movieFunction56 = function(){
 
     movieInfo.textContent = `
     Director: David Fincher
-    Actors: Brad Pitt, Edward Norton, Meat Loaf
+    Actors: Brad Pitt, Edward Norton
     Relese Date: 15 October 1999
     IMDb Rate: 8.8/10 
     `;
@@ -1709,7 +1709,7 @@ const movieFunction57 = function(){
 
     movieInfo.textContent = `
     Director: Simon West
-    Actors: Sylvester Stallone, Liam Hemsworth, Randy Couture
+    Actors: Sylvester Stallone, Liam Hemsworth
     Relese Date: 17 August 2012
     IMDb Rate: 6.6/10 
     `;
@@ -1726,7 +1726,7 @@ const movieFunction58 = function(){
 
     movieInfo.textContent = `
     Director: James Cameron
-    Actors: Arnold Schwarzenegger, Linda Hamilton, Edward Furlong
+    Actors: Arnold Schwarzenegger, Linda Hamilton
     Relese Date: 03 July 1991
     IMDb Rate: 8.6/10 
     `;
@@ -1743,12 +1743,12 @@ const movieFunction59 = function(){
 
     movieInfo.textContent = `
     Director: Boaz Yakin
-    Actors: Jason Statham, Catherine Chan, Chris Sarandon
+    Actors: Jason Statham, Catherine Chan
     Relese Date: 27 April 2012
     IMDb Rate: 6.5/10 
     `;
 
-    movieStory.textContent = `In China, the girl Mei is a genius that looks like a computer in numbers. She is abducted by the Chinese Triads and the boss Han Jiao takes Mei to New York's Chinatown in order to help him in his criminal activities. Meanwhile, the fighter Luke Wright has his life destroyed when he wins a fight against the will of the Russian Mafia and accidentally kills his opponent. The Russian mobsters kill his wife and the alcoholic Luke wanders aimlessly on the streets and homeless shelters. One day, Han Jiao asks Mei to memorize a long number and soon the Russian Mafia abducts the girl from the Chinese mobs. She escapes from the mobsters and is chased by the Russians; by the corrupt detectives from the NYPD; and by the Triads. When Luke sees the girl fleeing from the Russian mobs in the subway, he protects the girl and discovers that the number she had memorized is the combination of a safe where the Triads keep 30 million dollars. Luke is an elite agent and uses his skills to protect the girl.`;
+    movieStory.textContent = `The movie tells the story of Carol (Julianne Moore), who may be allergic to her environment. Something is certainly getting to her. She lives in an affluent, antiseptic, luxurious Southern California home. Her only duties are to care for her health and appearance.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=gU-wjVD_58c`;
 };
@@ -1760,7 +1760,7 @@ const movieFunction60 = function(){
 
     movieInfo.textContent = `
     Director: Christopher Nolan
-    Actors: Guy Pearce, Carrie-Anne Moss, Joe Pantoliano
+    Actors: Guy Pearce, Carrie-Anne Moss
     Relese Date: 25 May 2001
     IMDb Rate: 8.4/10 
     `;
@@ -1777,7 +1777,7 @@ const movieFunction61 = function(){
 
     movieInfo.textContent = `
     Director: Stephen Sommers
-    Actors: Hugh Jackman, Kate Beckinsale, Richard Roxburgh
+    Actors: Hugh Jackman, Kate Beckinsale
     Relese Date: 03 May 2004
     IMDb Rate: 6.0/10 
     `;
@@ -1793,7 +1793,7 @@ const movieFunction62 = function(){
 
     movieInfo.textContent = `
     Director: Chad Stahelski
-    Actors: Keanu Reeves, Halle Berry, Ian McShane
+    Actors: Keanu Reeves, Halle Berry
     Relese Date: 17 May 2019
     IMDb Rate: 7.4/10 
     `;
@@ -1810,7 +1810,7 @@ const movieFunction63 = function(){
 
     movieInfo.textContent = `
     Director: Ridley Scott
-    Actors: Matt Damon, Jessica Chastain, Kristen Wiig
+    Actors: Matt Damon, Jessica Chastain
     Relese Date: 02 October 2015
     IMDb Rate: 8.0/10 
     `;
@@ -1827,12 +1827,12 @@ const movieFunction64 = function(){
 
     movieInfo.textContent = `
     Director: Jonathan Mostow
-    Actors: Arnold Schwarzenegger, Nick Stahl, Kristanna Loken
+    Actors: Arnold Schwarzenegger, Nick Stahl
     Relese Date: 02 July 2003
     IMDb Rate: 6.3/10 
     `;
 
-    movieStory.textContent = `More than 10 years after 'Terminator 2', John Connor now exists only as a drifter - living 'off the grid', so no more Terminators from the future can hunt him down. Unfortunately, SkyNet does send another one back - and this one is called the T-X, even more powerful & advanced than the dreaded T-1000. However, another CSM-101 Terminator is also sent back to protect John against the T-X. Now, Skynet is patiently assuming control of civilian computer systems, under the guise of a computer virus. John has also met his future wife, Kate Brewster, whose father - a U.S. Air Force General - is in charge of the military computer systems & is leery of up linking SkyNet. However, when the SkyNet virus infects the U.S military computers & leaves the country open to attack, the machines begin their horrific takeover. Soon a nuclear war will result - and the war against the machines will begin. Can the outdated CSM-101 Terminator eliminate the highly advanced T-X - or will a darker future await man following the nuclear attack?`;
+    movieStory.textContent = `A machine from a post-apocalyptic future travels back in time to protect a man and a woman from an advanced robotic assassin to ensure they both survive a nuclear attack.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=5UgPJhyJmlM`;
 };
@@ -1844,7 +1844,7 @@ const movieFunction65 = function(){
 
     movieInfo.textContent = `
     Director: Patrick Hughes
-    Actors: Sylvester Stallone, Jason Statham, Jet Li
+    Actors: Sylvester Stallone, Jason Statham
     Relese Date: 15 August 2014
     IMDb Rate: 6.1/10 
     `;
@@ -1861,7 +1861,7 @@ const movieFunction66 = function(){
 
     movieInfo.textContent = `
     Director: Wilson Yip
-    Actors: Donnie Yen, Scott Adkins, Danny Kwok-Kwan Chan
+    Actors: Donnie Yen, Scott Adkins
     Relese Date: 20 December 2019
     IMDb Rate: 7.0/10 
     `;
@@ -1878,12 +1878,12 @@ const movieFunction67 = function(){
 
     movieInfo.textContent = `
     Director: Mike Judge
-    Actors: Luke Wilson, Maya Rudolph, Dax Shepard
+    Actors: Luke Wilson, Maya Rudolph
     Relese Date: 25 January 2007
     IMDb Rate: 6.5/10 
     `;
 
-    movieStory.textContent = `Officer Collins has been spearheading one of the US Army's most secretive experiments to date: the Human Hibernation Project. If successful, the project would store its subjects indefinitely until they are needed most. Their first test subject - Joe Bauers - was not chosen for his superiority. Instead, he's chosen because he's the most average guy in the armed services. But scandal erupts after the experiment takes place - the base is closed, and the president denies any knowledge of the project - Unfortunately, Joe doesn't wake up in a year, he wakes up in 500 years. But during that time human evolution has taken a dramatic downturn. After waking up, Joe takes a prison-assigned IQ test and finds that he's the smartest guy alive. Awaiting a full presidential pardon if he can solve one of the country's biggest problems - the dwindling plant population, Joe races against time to solve this problem. But he alienates half the country in the process. Can he make things right and escape a rather bizarre execution?`;
+    movieStory.textContent = `The story follows mellow everyman Joe Bauers (Luke Wilson), who is selected by the US army to participate in an experiment to test cryogenic hibernation. He's chosen because he's average in every way: average IQ; averagely inoffensive personality; even an average heart rate.`;
 
     buttonWatchTrailer.href = `https://www.youtube.com/watch?v=clYwX8Z43zg`;
 };
@@ -1895,7 +1895,7 @@ const movieFunction68 = function(){
 
     movieInfo.textContent = `
     Director: Philip G. Atwell
-    Actors: Jet Li, Jason Statham, Nadine Velazquez
+    Actors: Jet Li, Jason Statham
     Relese Date: 24 August 2007
     IMDb Rate: 6.2/10 
     `;
@@ -1912,7 +1912,7 @@ const movieFunction69 = function(){
 
     movieInfo.textContent = `
     Director: Ronny Yu
-    Actors: Jet Li, Li Sun, Yong Dong
+    Actors: Jet Li, Li Sun
     Relese Date: 22 September 2006
     IMDb Rate: 7.6/10 
     `;
@@ -1929,7 +1929,7 @@ const movieFunction70 = function(){
 
     movieInfo.textContent = `
     Director: Duncan Jones
-    Actors: Jake Gyllenhaal, Michelle Monaghan, Vera Farmiga
+    Actors: Jake Gyllenhaal, Michelle Monaghan
     Relese Date: 01 April 2011
     IMDb Rate: 7.5/10 
     `;
@@ -1946,7 +1946,7 @@ const movieFunction71 = function(){
 
     movieInfo.textContent = `
     Director: Denis Villeneuve
-    Actors: Amy Adams, Jeremy Renner, Forest Whitaker
+    Actors: Amy Adams, Jeremy Renner
     Relese Date: 11 November 2016
     IMDb Rate: 7.9/10 
     `;
@@ -1963,7 +1963,7 @@ const movieFunction72 = function(){
 
     movieInfo.textContent = `
     Director: Terry Jones
-    Actors: Simon Pegg, Kate Beckinsale, Sanjeev Bhaskar
+    Actors: Simon Pegg, Kate Beckinsale
     Relese Date: 12 May 2017
     IMDb Rate: 5.9/10 
     `;
