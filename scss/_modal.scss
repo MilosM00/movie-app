@@ -16,13 +16,11 @@
         text-align: center;
         font-family: sans-serif;
         font-size: 30px;
-        padding-bottom: 20px;
     }
 
     .movie-info{
         font-family: sans-serif;
         font-size: 18px;
-        padding-bottom: 20px;
     }
 
     .movie-story{
@@ -65,7 +63,7 @@
             font-family: sans-serif;
             text-decoration: none;
             color: rgb(255, 255, 255);
-            background-color: rgb(0, 0, 0);
+            background: linear-gradient(to right,#00BFFF, #0E3386);
             padding: 10px;
             font-size: 18px;
             font-weight: 800;
@@ -83,4 +81,32 @@
 
 .hidden-overlay{
     display: none;
+}
+
+@media (max-width: 699px) {
+    .modal-display{
+        width: 350px;
+
+        .movie-name{
+            font-size: 20px;
+        }
+
+        .movie-info,
+        .movie-story{
+            font-size: 15px;
+        }
+
+    }
+
+    .center{
+
+        .inline-buttons{
+
+            .close-modal,
+            .trailer{
+                font-size: 15px;
+            }
+        }
+    }
+
 }
