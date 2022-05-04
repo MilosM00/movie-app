@@ -82,3 +82,27 @@ header{
         }
     }
 }
+
+@media (max-width: 495px) {
+    header{
+
+        .inline{
+            
+            .search{
+                width: 250px;
+            }
+        }
+    }
+}
+
+@media (max-width: 345px) {
+    header{
+
+        .inline{
+
+            .search{
+                width: 200px;
+            }
+        }
+    }
+}
